@@ -1,0 +1,15 @@
+.line(@line, @artifact-color){
+
+  &:after when (@line = true){
+    content: ' ';
+    display: block;
+    width: 10%;
+    height: 3px;
+    position: relative;
+
+    left: 50%;
+    margin: 1em 0 0;
+    transform: translateX(-50%);
+    background-color: @artifact-color;
+  }
+}

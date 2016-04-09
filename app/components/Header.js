@@ -1,13 +1,12 @@
 import React, { PropTypes, Component }  from 'react';
-const Header=()=>
+const Header=({header})=>
     <header>
         <nav id="main-nav">
-            <div className="brand">browserstack</div>
+            <div className="brand">{header.title}</div>
             <ul>
-                <li>live</li>
-                <li>automate</li>
-                <li>screenshots</li>
-                <li>help</li>
+                {header.items.map((item,i)=>
+                    <li key={i}>item</li>
+                )}
             </ul>
         </nav>
     </header>

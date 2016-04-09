@@ -32,7 +32,12 @@ var dataFactory = {
         button: 'sign up'
     }
     ],
-    images: ['assets/bg1.jpg', 'assets/bg2.jpg', 'assets/bg3.jpg']
+    images: ['assets/bg1.jpg', 'assets/bg2.jpg', 'assets/bg3.jpg'],
+
+    header:{
+        title:'BrowserStack',
+        items:['live','automate','screenshots','help']
+    }
 
 };
 export default dataFactory;

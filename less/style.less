@@ -1,3 +1,6 @@
+@import "block";
+@import "line";
+@import "section";
 @white:#fff;
 *{
   margin:0;
@@ -31,51 +34,8 @@
 }
 
 
-.line(@line, @artifact-color){
-  
-  &:after when (@line = true){
-             content: ' ';
-    display: block;
-    width: 10%;
-    height: 3px;
-    position: relative;
-   
-    left: 50%;
-    margin: 1em 0 0;
-    transform: translateX(-50%);
- background-color: @artifact-color;
-    }
-}
-.section-style(@line,@font-size, @artifact-color, @artifact-font-color:red, @font-color:white,@button-vertical-alligment:middle,@padding){
-    display: table-row;
-    vertical-align: middle;
-    text-align: center;
-    width: 100%;
-    height: 3rem;
-    font-size: @font-size;
-    color:@font-color;
-    
-  button{
-    text-transform: uppercase;
-    width: 6rem;
-    height: 1.5rem;
-    border-radius: 1rem;
-    background-color: @artifact-color;
-    color: @artifact-font-color;
-    font-size: inherit;
-    vertical-align: bottom;
-}
-    span{
-      padding: @padding;
-    display: table-cell;
-    line-height: 1.2em;
-    vertical-align: @button-vertical-alligment;
-      position:relative; 
-      width:100%;
-      .line(@line, @artifact-color:@artifact-color);
-      
-    }
-  }
+
+
 
 
 .lfloat{
@@ -85,24 +45,7 @@
   float:right;
 }
 
-.block-style(@background-color,@artifact-color, @artifact-font-color, @font-color:white,@line:true)
-  {
-    width:100%;
-  background-color:@background-color;
-  display:table;
-    table-layout:fixed;
-    border-collapse: collapse;
-  header {
-    .section-style(@line:@line,@font-size:1.5em,@artifact-color: @artifact-color, @artifact-font-color: @artifact-font-color, @font-color:@font-color, @padding: 2.5em 3em 0);
-  }
-.content{
-    .section-style(@line:false, @font-size:0.85em,@artifact-color: @artifact-color, @font-color:@font-color,@padding: 1em 3em);
-    
-  }
-  .button-container{
-    .section-style(@line:false, @font-size:0.55em, @artifact-color: @artifact-color, @artifact-font-color: @artifact-font-color,@button-vertical-alligment:top,@padding:  3em 8em);
-  }
-}
+
 
 #sign-up-header{
   .block-style(@background-color:transparent,@artifact-color:red,@artifact-font-color:white);

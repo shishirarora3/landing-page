@@ -14,9 +14,9 @@ class Trigger extends React.Component{
 
             <div className="container">
                 <div className="inner-container">
-                    <Header/>
+                    <Header header={dataFactory.header}/>
                     {dataFactory.sections.map(
-                        section=><Section section={section}/>
+                        (section,i)=><Section key={i} section={section}/>
                     )}
                     <SliderWindow images={dataFactory.images}/>
                 </div>

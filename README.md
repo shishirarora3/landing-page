@@ -5,13 +5,14 @@
   <li>ES6/Babel</li>
   <li>React</li>
   <li>Webpack</li>
+  <li>npm</li>
 </ul>
 
 <h3>Features</h3>
 <ul>
   <li>Responsive</li>
   <li>StateLess components</li>
-  <li>60fps and CSS only slider with 0 reflows/repaints</li>
+  <li>60fps and CSS-only slider with 0 reflows/repaints</li>
 </ul>
 <h3>Code Instructions</h3>
 <ul>
