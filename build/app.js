@@ -19913,7 +19913,7 @@ webpackJsonp([0,1],[
 	        thumbnails.map(function (thumbnail, i) {
 	            return _react2.default.createElement(
 	                "div",
-	                { className: "thumbnail", key: "{i}" },
+	                { className: "thumbnail", key: i },
 	                _react2.default.createElement(
 	                    "div",
 	                    null,
