@@ -7,4 +7,4 @@
 </ul>
 
 
-<a href="http://cdn.rawgit.com/shishirarora3/landing-page/master/index.html" target="_blank">Demo</a>
+<a href="http://rawgit.com/shishirarora3/landing-page/master/index.html" target="_blank">Demo</a>
