@@ -10,12 +10,12 @@
 <ul>
   <li>Responsive</li>
   <li>StateLess components</li>
-<ul>
+</ul>
 <h3>TODO:</h3>
 <ul>
   <li>To Keep Components and data-factories in separate js files
   <li>To Keep Less Mixins in separate less files
   <li> make build with gulp and webpack</li>
-<ul>
+</ul>
 
 <a href="http://rawgit.com/shishirarora3/landing-page/master/index.html" target="_blank">Demo</a>
