@@ -20,16 +20,16 @@ var sections = [{
   key: 'features',
   header: 'Features',
   content: [{
-    imgSrc: '/images/ico-screen.png',
+    imgSrc: 'images/ico-screen.png',
     caption: 'Native experience',
     description: 'Real browsers on real machines. Just like a locally installed browser with media streaming.'
   }, {
-    imgSrc: '/images/ico-wrench.png',
+    imgSrc: 'images/ico-wrench.png',
 
     caption: 'Test environments',
     description: 'Our local testing feature allows you to test development and internal websites seamlessly.'
   }, {
-    imgSrc: '/images/ico-windows.png',
+    imgSrc: 'images/ico-windows.png',
     caption: 'Desktop browsers',
     description: 'Lates version of IE, Edge, Safari,Chrome,Firefox and more on range of platforms.'
   }]
@@ -38,7 +38,7 @@ var sections = [{
   header: 'Signup for a free trial',
   button: 'sign up'
 }];
-var images = ['/images/bg1.jpg', '/images/bg2.jpg', '/images/bg3.jpg'];
+var images = ['images/bg1.jpg', 'images/bg2.jpg', 'images/bg3.jpg'];
 var SliderWindow = function SliderWindow() {
   return React.createElement(
     'div',
