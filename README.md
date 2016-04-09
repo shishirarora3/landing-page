@@ -10,6 +10,7 @@
 <ul>
   <li>Responsive</li>
   <li>StateLess components</li>
+  <li>60fps and CSS only slider with 0 reflows/repaints</li>
 </ul>
 <h3>TODO:</h3>
 <ul>
