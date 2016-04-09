@@ -19868,8 +19868,7 @@ webpackJsonp([0,1],[
 	                'span',
 	                null,
 	                typeof section.content === 'string' ? section.content : _react2.default.createElement(_ThumbnailGroup2.default, { thumbnails: section.content })
-	            ),
-	            ' '
+	            )
 	        ),
 	        section.button && _react2.default.createElement(
 	            'div',

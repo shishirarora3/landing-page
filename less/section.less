@@ -1,13 +1,13 @@
-.section-style(@line,@font-size, @artifact-color, @artifact-font-color:red, @font-color:white,@button-vertical-alligment:middle,@padding){
+.section-style(@line,@font-size, @artifact-color, @artifact-font-color:red, @font-color:white,@button-vertical-alligment:middle,@padding) {
   display: table-row;
   vertical-align: middle;
   text-align: center;
   width: 100%;
   height: 3rem;
   font-size: @font-size;
-  color:@font-color;
+  color: @font-color;
 
-  button{
+  button {
     text-transform: uppercase;
     width: 6rem;
     height: 1.5rem;
@@ -17,13 +17,13 @@
     font-size: inherit;
     vertical-align: bottom;
   }
-  span{
+  span {
     padding: @padding;
     display: table-cell;
     line-height: 1.2em;
     vertical-align: @button-vertical-alligment;
-    position:relative;
-    width:100%;
+    position: relative;
+    width: 100%;
     .line(@line, @artifact-color:@artifact-color);
 
   }

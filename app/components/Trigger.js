@@ -7,7 +7,7 @@ import Header from './Header';
 import SliderWindow from './SliderWindow';
 import Section from './Section';
 
-class Trigger extends React.Component{
+class Trigger extends React.Component {
 
     render() {
         return (
@@ -16,7 +16,7 @@ class Trigger extends React.Component{
                 <div className="inner-container">
                     <Header header={dataFactory.header}/>
                     {dataFactory.sections.map(
-                        (section,i)=><Section key={i} section={section}/>
+                        (section, i)=><Section key={i} section={section}/>
                     )}
                     <SliderWindow images={dataFactory.images}/>
                 </div>
