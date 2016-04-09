@@ -1,0 +1,88 @@
+var sections = [{
+  key:'sign-up-header',
+  header:'LIVE,WEB-BASED,REAL BROWSER TESTING',
+  content:'instant access to all real mobile and desktop browsers. Easiest way to test websites. Say goodbye to your lab of devices and virtual machines.',
+  button:'SIGN UP'
+},{
+  key:'get-started',
+  header:'Test dev environments',
+  content:'Our local testing feature allows you to test development and internal websites seamlessly,without setup or configuration. Real browsers on real machines. Just like a locally installed browser with media streaming.',
+  button:'GET STARTED!'
+},{
+  key:'features',
+  header:'Features',
+  content:[{
+  imgSrc: '',
+  caption:'Native experience',
+  description: 'Real browsers on real machines. Just like a locally installed browser with media streaming.'
+},{
+  
+  imgSrc: '',
+  caption:'Test environments',
+  description: 'Our local testing feature allows you to test development and internal websites seamlessly.'
+},{
+  imgSrc: '',
+  caption:'Desktop browsers',
+  description: 'Lates version of IE, Edge, Safari,Chrome,Firefox and more on range of platforms.'
+}]
+},{
+  key:'sign-up-footer',
+  header:'Signup for a free trial',
+  button:'sign up'
+}
+               ];
+ let images = ['http://www.gettyimages.pt/gi-resources/images/Homepage/Hero/US/Oct2015/hpheroarches-526363545.jpg', 'https://www.planwallpaper.com/static/images/canberra_hero_image_JiMVvYU.jpg','http://www.gettyimages.pt/gi-resources/images/Homepage/Hero/US/Sept2015/hero-celeb-franco-slater-470133658.jpg']
+const SliderWindow = ()=>
+<div id="sliderWindow">
+  <div id="slider">
+    {images.map(image => 
+    <img src={image}/>
+      )}
+    </div>
+      </div>
+const Header=()=>
+  <header>
+        <nav id="main-nav">
+          <div className="brand">browserstack</div>
+          <ul>
+            <li>live</li>
+            <li>automate</li>
+            <li>screenshots</li>
+            <li>help</li>
+            </ul>
+        </nav>
+      </header>
+const ThumbnailGroup = ({thumbnails})=><div className="thumbnail-group">
+  {thumbnails.map(thumbnail=><div className="thumbnail">
+            <i className="icon">{thumbnail.imgSrc}</i>
+            <caption>{thumbnail.caption}</caption>
+            <div className="description">{thumbnail.description}</div>
+          </div>)}
+  </div>
+
+const Section = ({section})=>
+      <section id={section.key}>
+        <header><span>{section.header}</span></header>
+  {section.content && <div className="content"><span>{typeof section.content === 'string'?section.content:<ThumbnailGroup thumbnails = {section.content} />}</span> </div>}
+   {section.button && <div className="button-container"><span><button>{section.button}</button></span></div>}
+      </section> 
+
+class App extends React.Component{
+  
+  render() {
+    return (
+        
+        <div className="container">
+            <div className="inner-container">
+              <Header/>
+              {sections.map(
+                       section=><Section section={section}/>
+                       )}
+              <SliderWindow/>
+            </div>
+        </div>
+    );
+  }
+} 
+
+React.render(<App/>,document.body);

@@ -1,0 +1,527 @@
+.thumbnail-group {
+  display: table;
+  width: 100%;
+  margin-bottom: 1.3rem;
+}
+.thumbnail {
+  display: table-cell;
+  font-size: 0.8rem;
+  padding-right: 0.9rem;
+  line-height: 1.2rem;
+}
+.thumbnail:last-child {
+  padding-right: 0;
+}
+.description {
+  font-size: 0.6em;
+  line-height: 1.2em;
+}
+.lfloat {
+  float: left;
+}
+.rfloat {
+  float: right;
+}
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+#sign-up-header {
+  width: 100%;
+  background-color: transparent;
+  display: table;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+#sign-up-header header {
+  display: table-row;
+  vertical-align: middle;
+  text-align: center;
+  width: 100%;
+  height: 3rem;
+  font-size: 1.5em;
+  color: white;
+}
+#sign-up-header header button {
+  text-transform: uppercase;
+  width: 6rem;
+  height: 1.5rem;
+  border-radius: 1rem;
+  background-color: red;
+  color: white;
+  font-size: inherit;
+  vertical-align: bottom;
+}
+#sign-up-header header span {
+  padding: 2.5em 3em 0;
+  display: table-cell;
+  line-height: 1.2em;
+  vertical-align: middle;
+  position: relative;
+  width: 100%;
+}
+#sign-up-header header span:after {
+  content: ' ';
+  display: block;
+  width: 10%;
+  height: 3px;
+  position: relative;
+  left: 50%;
+  margin: 1em 0 0;
+  transform: translateX(-50%);
+  background-color: red;
+}
+#sign-up-header .content {
+  display: table-row;
+  vertical-align: middle;
+  text-align: center;
+  width: 100%;
+  height: 3rem;
+  font-size: 0.85em;
+  color: white;
+}
+#sign-up-header .content button {
+  text-transform: uppercase;
+  width: 6rem;
+  height: 1.5rem;
+  border-radius: 1rem;
+  background-color: red;
+  color: red;
+  font-size: inherit;
+  vertical-align: bottom;
+}
+#sign-up-header .content span {
+  padding: 1em 3em;
+  display: table-cell;
+  line-height: 1.2em;
+  vertical-align: middle;
+  position: relative;
+  width: 100%;
+}
+#sign-up-header .button-container {
+  display: table-row;
+  vertical-align: middle;
+  text-align: center;
+  width: 100%;
+  height: 3rem;
+  font-size: 0.55em;
+  color: white;
+}
+#sign-up-header .button-container button {
+  text-transform: uppercase;
+  width: 6rem;
+  height: 1.5rem;
+  border-radius: 1rem;
+  background-color: red;
+  color: white;
+  font-size: inherit;
+  vertical-align: bottom;
+}
+#sign-up-header .button-container span {
+  padding: 3em 8em;
+  display: table-cell;
+  line-height: 1.2em;
+  vertical-align: top;
+  position: relative;
+  width: 100%;
+}
+#get-started {
+  width: 100%;
+  background-color: red;
+  display: table;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+#get-started header {
+  display: table-row;
+  vertical-align: middle;
+  text-align: center;
+  width: 100%;
+  height: 3rem;
+  font-size: 1.5em;
+  color: white;
+}
+#get-started header button {
+  text-transform: uppercase;
+  width: 6rem;
+  height: 1.5rem;
+  border-radius: 1rem;
+  background-color: white;
+  color: black;
+  font-size: inherit;
+  vertical-align: bottom;
+}
+#get-started header span {
+  padding: 2.5em 3em 0;
+  display: table-cell;
+  line-height: 1.2em;
+  vertical-align: middle;
+  position: relative;
+  width: 100%;
+}
+#get-started header span:after {
+  content: ' ';
+  display: block;
+  width: 10%;
+  height: 3px;
+  position: relative;
+  left: 50%;
+  margin: 1em 0 0;
+  transform: translateX(-50%);
+  background-color: white;
+}
+#get-started .content {
+  display: table-row;
+  vertical-align: middle;
+  text-align: center;
+  width: 100%;
+  height: 3rem;
+  font-size: 0.85em;
+  color: white;
+}
+#get-started .content button {
+  text-transform: uppercase;
+  width: 6rem;
+  height: 1.5rem;
+  border-radius: 1rem;
+  background-color: white;
+  color: red;
+  font-size: inherit;
+  vertical-align: bottom;
+}
+#get-started .content span {
+  padding: 1em 3em;
+  display: table-cell;
+  line-height: 1.2em;
+  vertical-align: middle;
+  position: relative;
+  width: 100%;
+}
+#get-started .button-container {
+  display: table-row;
+  vertical-align: middle;
+  text-align: center;
+  width: 100%;
+  height: 3rem;
+  font-size: 0.55em;
+  color: white;
+}
+#get-started .button-container button {
+  text-transform: uppercase;
+  width: 6rem;
+  height: 1.5rem;
+  border-radius: 1rem;
+  background-color: white;
+  color: black;
+  font-size: inherit;
+  vertical-align: bottom;
+}
+#get-started .button-container span {
+  padding: 3em 8em;
+  display: table-cell;
+  line-height: 1.2em;
+  vertical-align: top;
+  position: relative;
+  width: 100%;
+}
+#features {
+  width: 100%;
+  background-color: transparent;
+  display: table;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+#features header {
+  display: table-row;
+  vertical-align: middle;
+  text-align: center;
+  width: 100%;
+  height: 3rem;
+  font-size: 1.5em;
+  color: black;
+}
+#features header button {
+  text-transform: uppercase;
+  width: 6rem;
+  height: 1.5rem;
+  border-radius: 1rem;
+  background-color: black;
+  color: black;
+  font-size: inherit;
+  vertical-align: bottom;
+}
+#features header span {
+  padding: 2.5em 3em 0;
+  display: table-cell;
+  line-height: 1.2em;
+  vertical-align: middle;
+  position: relative;
+  width: 100%;
+}
+#features header span:after {
+  content: ' ';
+  display: block;
+  width: 10%;
+  height: 3px;
+  position: relative;
+  left: 50%;
+  margin: 1em 0 0;
+  transform: translateX(-50%);
+  background-color: black;
+}
+#features .content {
+  display: table-row;
+  vertical-align: middle;
+  text-align: center;
+  width: 100%;
+  height: 3rem;
+  font-size: 0.85em;
+  color: black;
+}
+#features .content button {
+  text-transform: uppercase;
+  width: 6rem;
+  height: 1.5rem;
+  border-radius: 1rem;
+  background-color: black;
+  color: red;
+  font-size: inherit;
+  vertical-align: bottom;
+}
+#features .content span {
+  padding: 1em 3em;
+  display: table-cell;
+  line-height: 1.2em;
+  vertical-align: middle;
+  position: relative;
+  width: 100%;
+}
+#features .button-container {
+  display: table-row;
+  vertical-align: middle;
+  text-align: center;
+  width: 100%;
+  height: 3rem;
+  font-size: 0.55em;
+  color: white;
+}
+#features .button-container button {
+  text-transform: uppercase;
+  width: 6rem;
+  height: 1.5rem;
+  border-radius: 1rem;
+  background-color: black;
+  color: black;
+  font-size: inherit;
+  vertical-align: bottom;
+}
+#features .button-container span {
+  padding: 3em 8em;
+  display: table-cell;
+  line-height: 1.2em;
+  vertical-align: top;
+  position: relative;
+  width: 100%;
+}
+#sign-up-footer {
+  width: 100%;
+  background-color: black;
+  display: table;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+#sign-up-footer header {
+  display: table-row;
+  vertical-align: middle;
+  text-align: center;
+  width: 100%;
+  height: 3rem;
+  font-size: 1.5em;
+  color: white;
+}
+#sign-up-footer header button {
+  text-transform: uppercase;
+  width: 6rem;
+  height: 1.5rem;
+  border-radius: 1rem;
+  background-color: red;
+  color: white;
+  font-size: inherit;
+  vertical-align: bottom;
+}
+#sign-up-footer header span {
+  padding: 2.5em 3em 0;
+  display: table-cell;
+  line-height: 1.2em;
+  vertical-align: middle;
+  position: relative;
+  width: 100%;
+}
+#sign-up-footer .content {
+  display: table-row;
+  vertical-align: middle;
+  text-align: center;
+  width: 100%;
+  height: 3rem;
+  font-size: 0.85em;
+  color: white;
+}
+#sign-up-footer .content button {
+  text-transform: uppercase;
+  width: 6rem;
+  height: 1.5rem;
+  border-radius: 1rem;
+  background-color: red;
+  color: red;
+  font-size: inherit;
+  vertical-align: bottom;
+}
+#sign-up-footer .content span {
+  padding: 1em 3em;
+  display: table-cell;
+  line-height: 1.2em;
+  vertical-align: middle;
+  position: relative;
+  width: 100%;
+}
+#sign-up-footer .button-container {
+  display: table-row;
+  vertical-align: middle;
+  text-align: center;
+  width: 100%;
+  height: 3rem;
+  font-size: 0.55em;
+  color: white;
+}
+#sign-up-footer .button-container button {
+  text-transform: uppercase;
+  width: 6rem;
+  height: 1.5rem;
+  border-radius: 1rem;
+  background-color: red;
+  color: white;
+  font-size: inherit;
+  vertical-align: bottom;
+}
+#sign-up-footer .button-container span {
+  padding: 3em 8em;
+  display: table-cell;
+  line-height: 1.2em;
+  vertical-align: top;
+  position: relative;
+  width: 100%;
+}
+#main-nav {
+  height: 2rem;
+  color: #fff;
+  display: table;
+  border-bottom: 1px solid white;
+  width: 100%;
+}
+#main-nav .brand {
+  display: table-cell;
+  height: 100%;
+  vertical-align: middle;
+  text-align: center;
+}
+#main-nav ul {
+  width: 60%;
+  list-style-type: none;
+  display: table;
+  height: 100%;
+  float: right;
+}
+#main-nav ul li {
+  display: table-cell;
+  padding: 0 0.5em;
+  height: 100%;
+  text-align: center;
+  vertical-align: middle;
+}
+#main-nav ul li:last-child {
+  padding-right: 1em;
+}
+.inner-container {
+  width: 50%;
+  margin: auto;
+  color: black;
+  position: relative;
+  overflow: hidden;
+}
+.container {
+  width: 100%;
+  position: relative;
+}
+#slider {
+  width: 300%;
+  height: 100%;
+  animation-name: slider;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+}
+#sliderWindow {
+  position: absolute;
+  height: 20rem;
+  width: 100%;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+}
+#sliderWindow img {
+  width: 33.33%;
+  height: 100%;
+}
+@keyframes slider {
+  2% {
+    transform: translateX(0);
+    opacity: 0;
+  }
+  2.1% {
+    transform: translateX(-66.66%);
+    opacity: 0;
+  }
+  4% {
+    opacity: 1;
+  }
+  30% {
+    transform: translateX(-66.66%);
+    opacity: 1;
+  }
+  32.0% {
+    transform: translateX(-66.66%);
+    opacity: 0;
+  }
+  32.05% {
+    transform: translateX(-33.33%);
+    opacity: 0;
+  }
+  34% {
+    opacity: 1;
+  }
+  58% {
+    opacity: 1;
+    transform: translateX(-33.33%);
+  }
+  60% {
+    opacity: 0;
+    transform: translateX(-33.33%);
+  }
+  60.1% {
+    transform: translateX(0px);
+    opacity: 0;
+  }
+  67% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+html {
+  font-size: 1.5vw;
+}
