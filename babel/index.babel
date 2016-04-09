@@ -54,7 +54,10 @@ const Header=()=>
       </header>
 const ThumbnailGroup = ({thumbnails})=><div className="thumbnail-group">
   {thumbnails.map(thumbnail=><div className="thumbnail">
-            <img src={thumbnail.imgSrc}></img>
+                    
+            <div>
+              <img src={thumbnail.imgSrc}></img>
+             </div>
             <caption>{thumbnail.caption}</caption>
             <div className="description">{thumbnail.description}</div>
           </div>)}

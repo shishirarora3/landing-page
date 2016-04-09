@@ -100,7 +100,11 @@ var ThumbnailGroup = function ThumbnailGroup(_ref) {
       return React.createElement(
         'div',
         { className: 'thumbnail' },
-        React.createElement('img', { src: thumbnail.imgSrc }),
+        React.createElement(
+          'div',
+          null,
+          React.createElement('img', { src: thumbnail.imgSrc })
+        ),
         React.createElement(
           'caption',
           null,
