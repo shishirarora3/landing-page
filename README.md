@@ -1,5 +1,5 @@
 <h2>Landing Page</h2>
-<h3>Texhnologies Used:</h3>
+<h3>Technologies Used:</h3>
 <ul>
   <li>less/CSS</li>
   <li>ES6/Babel</li>
