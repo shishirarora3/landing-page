@@ -19784,7 +19784,7 @@ webpackJsonp([0,1],[
 	                    return _react2.default.createElement(
 	                        "li",
 	                        { key: i },
-	                        "item"
+	                        item
 	                    );
 	                })
 	            )

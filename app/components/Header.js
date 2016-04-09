@@ -5,7 +5,7 @@ const Header=({header})=>
             <div className="brand">{header.title}</div>
             <ul>
                 {header.items.map((item,i)=>
-                    <li key={i}>item</li>
+                    <li key={i}>{item}</li>
                 )}
             </ul>
         </nav>
