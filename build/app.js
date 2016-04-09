@@ -19,7 +19,7 @@ webpackJsonp([0,1],[
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	__webpack_require__(168);
-	_reactDom2.default.render(_react2.default.createElement(_Trigger2.default, null), document.body);
+	_react2.default.render(_react2.default.createElement(_Trigger2.default, null), document.body);
 
 /***/ },
 /* 1 */,

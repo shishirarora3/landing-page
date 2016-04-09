@@ -432,13 +432,16 @@
   display: table-cell;
   height: 100%;
   vertical-align: middle;
-  text-align: center;
+  text-align: left;
+  padding-left: 1em;
+  font-size: 0.8em;
 }
 #main-nav ul {
   width: 60%;
   list-style-type: none;
   display: table;
   height: 100%;
+  font-size: 0.6em;
   float: right;
 }
 #main-nav ul li {
