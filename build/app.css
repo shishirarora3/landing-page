@@ -3,6 +3,7 @@
   padding: 0;
   border: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 .thumbnail-group {
   display: table;
@@ -425,6 +426,7 @@
   display: table;
   border-bottom: 1px solid white;
   width: 100%;
+  text-transform: uppercase;
 }
 #main-nav .brand {
   display: table-cell;
