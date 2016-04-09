@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
 .thumbnail-group {
   display: table;
   width: 100%;
@@ -27,12 +33,6 @@
 }
 .rfloat {
   float: right;
-}
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  box-sizing: border-box;
 }
 #sign-up-header {
   width: 100%;
