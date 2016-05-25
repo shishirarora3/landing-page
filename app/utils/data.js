@@ -35,7 +35,7 @@ var dataFactory = {
     images: ['assets/bg1.jpg', 'assets/bg2.jpg', 'assets/bg3.jpg'],
 
     header: {
-        title: 'BrowserStack',
+        title: 'ABC Corporation',
         items: ['live', 'automate', 'screenshots', 'help']
     }
 
